@@ -16,7 +16,7 @@ const Feature = () => {
           international tourists.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
         {data.map((item) => (
           <div key={item.id} className="card h-96 w-72 image-full">
             <figure><img src={item.image} alt="tour" /></figure>
