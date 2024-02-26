@@ -1,0 +1,50 @@
+[
+    {
+        "image": "./assests/image/gallery/1.webp",
+        "description": "Description for image 1"
+    },
+    {
+        "image": "./assests/image/gallery/2.webp",
+        "description": "Description for image 2"
+    },
+    {
+        "image": "./assests/image/gallery/3.webp",
+        "description": "Description for image 3"
+    },
+    {
+        "image": "./assests/image/gallery/4.webp",
+        "description": "Description for image 4"
+    },
+    {
+        "image": "./assests/image/gallery/5.webp",
+        "description": "Description for image 5"
+    },
+    {
+        "image": "./assests/image/gallery/6.webp",
+        "description": "Description for image 6"
+    },
+    {
+        "image": "./assests/image/gallery/7.webp",
+        "description": "Description for image 7"
+    },
+    {
+        "image": "./assests/image/gallery/8.webp",
+        "description": "Description for image 8"
+    },
+    {
+        "image": "./assests/image/gallery/9.webp",
+        "description": "Description for image 9"
+    },
+    {
+        "image": "./assests/image/gallery/10.webp",
+        "description": "Description for image 10"
+    },
+    {
+        "image": "./assests/image/gallery/11.webp",
+        "description": "Description for image 11"
+    },
+    {
+        "image": "./assests/image/gallery/12.webp",
+        "description": "Description for image 12"
+    }
+]
