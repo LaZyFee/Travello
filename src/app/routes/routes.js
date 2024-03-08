@@ -5,6 +5,7 @@ import About from "../about/About";
 import Contact from "../contact/Contact";
 import Home from "../../components/pages/index/Home";
 import Tour from "../tours/Tour";
+import TourDetails from "../tours/TourDetails/TourDetails";
 
 export const routes = createBrowserRouter([
   {
@@ -31,6 +32,11 @@ export const routes = createBrowserRouter([
         },
         element: <Tour></Tour>,
       },
+      {
+        path: "/tour/:slug",
+        element: <TourDetails></TourDetails>
+      },
+
       {
         path: "/about",
         element: <About></About>,

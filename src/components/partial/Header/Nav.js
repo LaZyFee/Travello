@@ -44,11 +44,11 @@ const Nav = () => {
         </Link>
       </div>
 
-      <div className="navbar-end gap-6 me-20 hidden md:flex">
+      <div className="navbar-end gap-8 md:me-20 hidden md:flex whitespace-nowrap">
         <NavLink
           className={({ isActive }) =>
             isActive
-              ? "border-2 border-green-500 p-3 font-bold rounded-full"
+              ? "border-2 border-green-500 p-2 font-bold rounded-full"
               : "text-green-700 hover:bg-blue-200 hover:p-2 hover:rounded-xl"
           }
           to="/"
@@ -58,7 +58,7 @@ const Nav = () => {
         <NavLink
           className={({ isActive }) =>
             isActive
-              ? "border-2 border-green-500 p-3 font-bold rounded-full"
+              ? "border-2 border-green-500 p-2 font-bold rounded-full"
               : "text-green-700 hover:bg-blue-200 hover:p-2 hover:rounded-xl"
           }
           to="/tour"
@@ -68,7 +68,7 @@ const Nav = () => {
         <NavLink
           className={({ isActive }) =>
             isActive
-              ? "border-2 border-green-500 p-3 font-bold rounded-full"
+              ? "border-2 border-green-500 p-2 font-bold rounded-full"
               : "text-green-700 hover:bg-blue-200 hover:p-2 hover:rounded-xl"
           }
           to="/about"
@@ -78,7 +78,7 @@ const Nav = () => {
         <NavLink
           className={({ isActive }) =>
             isActive
-              ? "border-2 border-green-500 p-3 font-bold rounded-full"
+              ? "border-2 border-green-500 p-2 font-bold rounded-full"
               : "text-green-700 hover:bg-blue-200 hover:p-2 hover:rounded-xl"
           }
           to="/contact"

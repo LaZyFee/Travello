@@ -4,7 +4,7 @@ import { useLoaderData } from 'react-router-dom';
 
 const Gallery = () => {
     const gallery = useLoaderData().gallery;
-    console.log(gallery);
+    // console.log(gallery);
     return (
         <div className='container mx-auto mt-10'>
             <h1 className="text-3xl font-bold text-center md:text-start mb-5">Gallery</h1>
@@ -12,7 +12,7 @@ const Gallery = () => {
             < div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 {
                     gallery.map(item => (
-                        <img src={item.image} alt={item.description} className="gallery-image transition hover:translate-y-1 hover:scale-110" />
+                        <img src={item.image} alt={item.description} key={item.description} className="gallery-image transition hover:translate-y-1 hover:scale-110" />
                     ))
                 }
             </div>

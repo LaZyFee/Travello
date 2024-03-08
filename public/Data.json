@@ -1,7 +1,7 @@
 [
     {
         "slug": "bromo-tour",
-        "image": "./assests/image/gallery/8.webp",
+        "image": "/assests/image/gallery/8.webp",
         "title": "Bromo Tour",
         "description": "Explore the breathtaking Bromo Tengger Semeru National Park with our Bromo Tour. We offer both group and private tours to Bromo.",
         "groupTour": {
@@ -176,7 +176,7 @@
     },
     {
         "slug": "tumpaksewu-tour",
-        "image": "./assests/image/gallery/12.webp",
+        "image": "/assests/image/gallery/12.webp",
         "title": "Tumpaksewu Tour",
         "description": "Discover the beauty of Tumpaksewu Waterfalls with our Tumpaksewu Tour. We offer both group and private tours to this mesmerizing destination.",
         "groupTour": {
@@ -353,7 +353,7 @@
     },
     {
         "slug": "ijen-blue-fire-tour",
-        "image": "./assests/image/gallery/4.webp",
+        "image": "/assests/image/gallery/4.webp",
         "title": "Ijen Blue Fire Tour",
         "description": "Experience the mesmerizing Ijen Blue Fire with our Ijen Blue Fire Tour. Choose between a Group Tour or a Private Tour for a personalized adventure.",
         "groupTour": {

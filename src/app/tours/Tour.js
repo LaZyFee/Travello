@@ -1,10 +1,11 @@
 import React from 'react';
 import { FaChevronRight } from 'react-icons/fa';
 import { Link, useLoaderData } from 'react-router-dom';
+import TourCard from './TourCard';
 
 const Tour = () => {
     const data = useLoaderData().data;
-    console.log(data);
+    // console.log(data);
     return (
         <div className='mb-10'>
             <div className="relative overflow-hidden">
@@ -30,27 +31,7 @@ const Tour = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10">
                 {
-                    data.map(item => (
-
-                        <div className="card shadow-md">
-                            <figure className="px-10 pt-10">
-                                <img src={item.image} alt="TourImage" className="rounded-xl h-48 w-full" />
-                            </figure>
-                            <div className="card-body ">
-                                <h2 className="card-title">{item.title}</h2>
-                                <p>{item.description}</p>
-                                <div className="grid grid-cols-1 md:grid-cols-2">
-                                    <p className='inline-flex gap-3 items-center'> {item.groupTour.include[1].icon} {item.groupTour.include[1].name}</p>
-                                    <p className='inline-flex gap-3 items-center'> {item.groupTour.include[2].icon} {item.groupTour.include[2].name}</p>
-                                </div>
-
-                                <div className="card-actions ">
-                                    {/* <Link to={`/tours/${item._id}`}></Link> */}
-                                    <button className="btn btn-info w-full text-white">Details</button>
-                                </div>
-                            </div>
-                        </div>
-                    ))
+                    data.map(item => <TourCard key={item.slug} item={item} />)
                 }
             </div>
         </div>

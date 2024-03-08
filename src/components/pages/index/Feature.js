@@ -16,15 +16,29 @@ const Feature = () => {
           international tourists.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
+
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 ">
         {data.map((item) => (
-          <div key={item.id} className="card h-96 w-72 image-full">
-            <figure><img src={item.image} alt="tour" /></figure>
-            <div className="card-body">
-              <h3 className="card-title font-bold">{item.title} <FaRightLong /> </h3>
+          <div
+            key={item.id}
+            className="relative overflow-hidden group rounded-lg card h-96 w-72"
+          >
+            <img
+              src={item.image}
+              alt="tour"
+              className="object-cover w-full h-full transition-opacity duration-300"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+            <div className="absolute inset-0 flex flex-col justify-end p-4">
+              <h3 className="text-white text-lg font-bold flex items-center gap-2 mb-2">
+                {item.title} <FaRightLong />
+              </h3>
               <div>
-                <p>Starting From</p>
-                <h5 className="text-xl font-semibold">{item.groupTour.price.domestic} / Person </h5>
+                <p className="text-white">Starting From</p>
+                <h5 className="text-xl font-semibold text-white">
+                  {item.groupTour.price.domestic} / Person
+                </h5>
               </div>
             </div>
           </div>
