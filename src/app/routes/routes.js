@@ -23,6 +23,7 @@ export const routes = createBrowserRouter([
         },
         element: <Home></Home>,
       },
+
       {
         path: "/tour",
         loader: async () => {

@@ -22,7 +22,7 @@ const Tour = () => {
                                 </li>
                                 <FaChevronRight />
                                 <li>
-                                    <Link to="/tours">Tours</Link>
+                                    <Link to="/tour">Tours</Link>
                                 </li>
                             </ul>
                         </div>

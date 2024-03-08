@@ -8,11 +8,8 @@ const DetailsForm = ({ details }) => {
 
     const handleBook = (data) => {
         console.log(data);
+
     }
-
-
-
-
 
     return (
         <div className='flex justify-center items-center border-2 md:mx-5 rounded-lg sticky top-20 '>
