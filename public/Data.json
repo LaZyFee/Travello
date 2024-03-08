@@ -4,6 +4,24 @@
         "image": "/assests/image/gallery/8.webp",
         "title": "Bromo Tour",
         "description": "Explore the breathtaking Bromo Tengger Semeru National Park with our Bromo Tour. We offer both group and private tours to Bromo.",
+        "gallery": [
+            {
+                "image": "/assests/image/products/bromo/1.webp",
+                "description": "bromo"
+            },
+            {
+                "image": "/assests/image/products/bromo/2.webp",
+                "description": "bromo"
+            },
+            {
+                "image": "/assests/image/products/bromo/3.webp",
+                "description": "bromo"
+            },
+            {
+                "image": "/assests/image/products/bromo/4.webp",
+                "description": "Bromo"
+            }
+        ],
         "groupTour": {
             "time": "Setiap hari",
             "include": [
@@ -349,6 +367,24 @@
         "paymentMethods": [
             "Transfer",
             "Cash (any currency we receive it)"
+        ],
+        "gallery": [
+            {
+                "image": "/assests/image/products/ijen-blue-fire/1.webp",
+                "description": "Bromo"
+            },
+            {
+                "image": "/assests/image/products/ijen-blue-fire/2.webp",
+                "description": "Bromo"
+            },
+            {
+                "image": "/assests/image/products/ijen-blue-fire/3.webp",
+                "description": "Bromo"
+            },
+            {
+                "image": "/assests/image/products/ijen-blue-fire/4.webp",
+                "description": "Bromo"
+            }
         ]
     },
     {
@@ -516,6 +552,24 @@
         "paymentMethods": [
             "Transfer",
             "Cash (any currency we receive it)"
+        ],
+        "gallery": [
+            {
+                "image": "/assests/image/products/tumpaksewu/1.webp",
+                "description": "Bromo"
+            },
+            {
+                "image": "/assests/image/products/tumpaksewu/2.webp",
+                "description": "Bromo"
+            },
+            {
+                "image": "/assests/image/products/tumpaksewu/3.webp",
+                "description": "Bromo"
+            },
+            {
+                "image": "/assests/image/products/tumpaksewu/4.webp",
+                "description": "Bromo"
+            }
         ]
     }
 ]

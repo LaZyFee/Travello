@@ -15,11 +15,10 @@ const TourCard = ({ item }) => {
                     <p className='inline-flex gap-3 items-center'> {item.groupTour.include[2].icon} {item.groupTour.include[2].name}</p>
                 </div>
 
-                <div className="card-actions ">
-                    <Link to={`/tour/${item.slug}`}>
-                        <button className="btn btn-info w-full text-white">Details</button>
-                    </Link>
-                </div>
+                <Link to={`/tour/${item.slug}`}>
+                    <button className="btn btn-info w-full text-white">Details</button>
+                </Link>
+
             </div>
         </div>
     );

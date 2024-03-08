@@ -7,11 +7,11 @@ import AdditionalInfo from './ContentDetails/AdditionalInfo';
 const Details = ({ details }) => {
     // console.log(details);
     return (
-        <section>
-            <p className='my-8 text-base text-slate-500 leading-relaxed tracking-normal'>
+        <section >
+            <p className='my-8 text-lg text-slate-500'>
                 {details.description}
             </p>
-            <div className='flex flex-col gap-4 justify-between'>
+            <div className='flex flex-col gap-4'>
                 <GroupTour tour={details} />
                 <PrivateTour tour={details} />
                 <Itinerary itinerary={details.itinerary} />

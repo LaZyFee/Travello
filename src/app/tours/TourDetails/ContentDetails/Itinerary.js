@@ -16,7 +16,7 @@ const Itinerary = ({ itinerary }) => {
             <div className="border rounded-lg overflow-hidden shadow-md p-6 bg-white mt-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                     {itinerary.map((item) => (
-                        <div>
+                        <div key={item.timeRange}>
                             <div className="mr-4 text-cyan-500">
                                 <FaClock size={20} />
                             </div>

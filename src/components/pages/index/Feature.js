@@ -21,7 +21,7 @@ const Feature = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 ">
         {data.map((item) => (
           <div
-            key={item.id}
+            key={item.image}
             className="relative overflow-hidden group rounded-lg card h-96 w-72"
           >
             <img
@@ -29,7 +29,7 @@ const Feature = () => {
               alt="tour"
               className="object-cover w-full h-full transition-opacity duration-300"
             />
-            <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black to-black-700 opacity-0 transition-all duration-500 group-hover:opacity-100"></div>
             <div className="absolute inset-0 flex flex-col justify-end p-4">
               <h3 className="text-white text-lg font-bold flex items-center gap-2 mb-2">
                 {item.title} <FaRightLong />

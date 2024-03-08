@@ -30,7 +30,7 @@ export const routes = createBrowserRouter([
           const data = await dataResponse.json();
           return { data };
         },
-        element: <Tour></Tour>,
+        element: <Tour></Tour>
       },
       {
         path: "/tour/:slug",
@@ -39,11 +39,11 @@ export const routes = createBrowserRouter([
 
       {
         path: "/about",
-        element: <About></About>,
+        element: <About></About>
       },
       {
         path: "/contact",
-        element: <Contact></Contact>,
+        element: <Contact></Contact>
       },
     ],
   },

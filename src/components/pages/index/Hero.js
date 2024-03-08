@@ -11,12 +11,12 @@ const Hero = () => {
             <FaPlane className="text-xl" />
             <span className="font-bold">Explore the East Java!</span>
           </span>
-          <h1 className="font-bold text-4xl md:text-6xl md:leading-tight md:text-start text-center" >
+          <h1 className="font-bold text-4xl md:text-6xl md:text-start text-center" >
             Travel Around East Java with
             <span className="text-cyan-500">Bromo Smart Tour</span>
           </h1>
           <p
-            className="leading-relaxed font-normal text-white md:text-start text-center">
+            className="font-normal text-white md:text-start text-center">
             We always give the extraordinary experience for you. We provide tour
             packages around East Java for domestic and international tourists.
           </p>

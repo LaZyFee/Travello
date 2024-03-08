@@ -4,6 +4,7 @@ import DetailsBanner from './DetailsBanner';
 import Details from './Details';
 import DetailsForm from './DetailsForm';
 import Title from './Title';
+import SwiperItem from './SwiperItem';
 
 const TourDetails = () => {
     const { slug } = useParams();
@@ -17,7 +18,7 @@ const TourDetails = () => {
     }, []);
 
     const slugData = tourData.find(item => item.slug === slug);
-    // console.log(slugData);
+
 
     return (
         <div>
@@ -25,12 +26,13 @@ const TourDetails = () => {
                 <>
                     <DetailsBanner details={slugData} />
                     <Title details={slugData} />
-                    <div className="container mx-auto px-4 py-8 flex">
-                        <div className="w-full md:w-3/4">
+                    <div className="container mx-auto px-4 py-8 md:flex relative">
+                        <div className="w-full md:w-3/4  lg:w-2/3">
+                            <SwiperItem gallery={slugData?.gallery} />
                             <Details details={slugData} />
                         </div>
-                        <div className="w-full md:w-1/4">
-                            <DetailsForm />
+                        <div className="w-full lg:w-1/3">
+                            <DetailsForm details={slugData} />
                         </div>
                     </div>
                 </>

@@ -4,9 +4,9 @@ import logo from "../../../assests/image/logo/logo.png";
 const Nav = () => {
   return (
     <div className="navbar z-20 bg-base-100 sticky top-0 shadow-md">
-      <div className="navbar-start flex justify-between w-full flex-row-reverse">
+      <div className="navbar-start flex justify-between w-full flex-row-reverse md:mx-10">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost md:hidden me-12">
+          <div tabIndex={0} role="button" className="btn btn-ghost md:hidden me-6">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -23,7 +23,7 @@ const Nav = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] shadow bg-base-100 rounded-box w-auto"
+            className="menu menu-sm dropdown-content mt-1 z-[1] shadow-2xl text-white"
           >
             <li>
               <Link to='/'>Home</Link>
