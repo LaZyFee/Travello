@@ -14,7 +14,6 @@ export const routes = createBrowserRouter([
     children: [
       {
         path: "/",
-        loader: () => fetch('Gallery.json'),
         element: <Home></Home>,
       },
 

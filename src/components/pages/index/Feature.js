@@ -1,11 +1,10 @@
 import React from "react";
 import { FaRightLong } from "react-icons/fa6";
-import { Link, useLoaderData } from "react-router-dom";
-
+import { Link } from "react-router-dom";
+import { TourData } from "../../../Data/TourData";
 const Feature = () => {
-  const data = useLoaderData().data;
 
-
+  const data = TourData
   return (
     <div className="container mx-auto md:px-4" >
       <div className="mb-10">

@@ -1,10 +1,10 @@
 import React from 'react';
 import '../../../App.css';
-import { useLoaderData } from 'react-router-dom';
-
+import { GalleryData } from '../../../Data/GalleryData';
 const Gallery = () => {
-    const gallery = useLoaderData().gallery;
-    // console.log(gallery);
+
+    const gallery = GalleryData
+
     return (
         <div className='container mx-auto mt-10'>
             <h1 className="text-3xl font-bold text-center md:text-start mb-5">Gallery</h1>
