@@ -1,11 +1,13 @@
 import React from 'react';
 import { FaChevronRight } from 'react-icons/fa';
-import { Link, useLoaderData } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import TourCard from './TourCard';
-
+import { TourData } from "../../Data/TourData";
 const Tour = () => {
-    const data = useLoaderData().data;
-    // console.log(data);
+    const data = TourData;
+
+
+
     return (
         <div className='mb-10'>
             <div className="relative overflow-hidden">

@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <div className="container mx-auto px-4">
             <Hero />
-            <Feature data={data} />
+            <Feature />
             <Services />
             <Gallery data={data} />
             <Location />

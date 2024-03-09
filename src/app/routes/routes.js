@@ -14,23 +14,12 @@ export const routes = createBrowserRouter([
     children: [
       {
         path: "/",
-        loader: async () => {
-          const dataResponse = await fetch('Data.json');
-          const galleryResponse = await fetch('Gallery.json');
-          const data = await dataResponse.json();
-          const gallery = await galleryResponse.json();
-          return { data, gallery };
-        },
+        loader: () => fetch('Gallery.json'),
         element: <Home></Home>,
       },
 
       {
         path: "/tour",
-        loader: async () => {
-          const dataResponse = await fetch('Data.json');
-          const data = await dataResponse.json();
-          return { data };
-        },
         element: <Tour></Tour>
       },
       {

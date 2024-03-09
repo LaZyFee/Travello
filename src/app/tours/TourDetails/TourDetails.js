@@ -1,24 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom';
 import DetailsBanner from './DetailsBanner';
 import Details from './Details';
 import DetailsForm from './DetailsForm';
 import Title from './Title';
 import SwiperItem from './SwiperItem';
-
+import { TourData } from '../../../Data/TourData';
 const TourDetails = () => {
     const { slug } = useParams();
 
-
-    const [tourData, setData] = useState([]);
-    useEffect(() => {
-        fetch('/Data.json')
-            .then(res => res.json())
-            .then(data => setData(data))
-    }, []);
-
-    const slugData = tourData.find(item => item.slug === slug);
-
+    const slugData = TourData.find(item => item.slug === slug);
 
     return (
         <div>
