@@ -1,3 +1,58 @@
+# Travello
+
+Welcome to **Travello**! An interactive, user-friendly platform to help you explore and book tours for beautiful tourist destinations. Built using modern web technologies like React, Tailwind CSS, and DaisyUI, Travello offers a smooth and responsive user experience. 
+
+## Features
+
+- **Tourist Spots**: View a list of available tourist spots with details.
+- **Expense Details**: Check expenses for each destination or tour package.
+- **Facilities**: See all facilities offered with each plan.
+- **Booking**: Easily book the plan that best suits your needs.
+- **Interactive Interface**: Built with Tailwind CSS and DaisyUI for a responsive, beautiful UI.
+
+## Technologies Used
+
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **DaisyUI**: Customizable components built on Tailwind CSS.
+- **React Router DOM**: Declarative routing for React.
+- **React Hot Toast**: Notifications for providing instant feedback.
+- **React Hook Form**: Simplified form management.
+- **Swiper**: Modern touch slider for carousels.
+
+## Usage
+
+1. **Browse** the tourist spots available, complete with pricing and facilities.
+2. **Select** a tourist spot to view more details.
+3. **Book** the plan of your choice by filling out the form.
+4. **Get Notifications** for booking confirmations and any updates.
+
+## Contributing
+
+1. Fork the project.
+2. Create your feature branch (`git checkout -b feature/new-feature`).
+3. Commit your changes (`git commit -m 'Add some new feature'`).
+4. Push to the branch (`git push origin feature/new-feature`).
+5. Open a pull request.
+
+
+
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/travello.git
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
